@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Amshar - Web Developer & Graphic Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="home-icon-mobile">
+                <a href="#"><i class="fas fa-home"></i></a>
+            </div>
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#quote"><i class="fas fa-quote-right"></i> Quotes</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="theme-switcher">
+                <button id="theme-toggle" aria-label="Change theme">
+                    <i class="fas fa-palette"></i>
+                    <span>Themes</span>
+                </button>
+                <div class="theme-dropdown">
+                    <div class="theme-option" data-theme="light"><i class="fas fa-circle"></i> Light</div>
+                    <div class="theme-option" data-theme="dark"><i class="fas fa-circle"></i> Dark</div>
+                    <div class="theme-option" data-theme="blue"><i class="fas fa-circle"></i> Blue</div>
+                    <div class="theme-option" data-theme="green"><i class="fas fa-circle"></i> Green</div>
+                    <div class="theme-option" data-theme="purple"><i class="fas fa-circle"></i> Purple</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="myPhoto.jpeg" alt="Md Amshar" class="profile-large">
+                </div>
+                <div class="about-text">
+                    <h1>Md Amshar</h1>
+                    <h2>Web Developer & Graphic Designer</h2>
+                    <p class="tagline">
+                        <span id="typing-text"></span>
+                        <span class="typing-cursor">|</span>
+                    </p>
+                    <p>I am a passionate Web Developer and Graphic Designer with expertise in creating responsive websites and compelling visual designs. With a keen eye for detail and a creative mindset, I deliver high-quality solutions that meet client needs and exceed expectations.</p>
+                    <p>My approach combines technical knowledge with artistic vision to build user-friendly, visually appealing digital products that drive results.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="projects-intro">Check out some of my recent work and creative solutions.</p>
+            
+            <div class="coming-soon-container">
+                <div class="animated-coming-soon">
+                    <span>C</span>
+                    <span>O</span>
+                    <span>M</span>
+                    <span>I</span>
+                    <span>N</span>
+                    <span>G</span>
+                    <span class="space"></span>
+                    <span>S</span>
+                    <span>O</span>
+                    <span>O</span>
+                    <span>N</span>
+                </div>
+                <h3 class="coming-soon-text">Exciting Projects On The Way!</h3>
+                <p class="coming-soon-desc">I'm currently working on some amazing projects. Check back soon to see my latest work!</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skills-progress-list">
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>HTML5/CSS3</span>
+                                <span class="percent">95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>JavaScript</span>
+                                <span class="percent">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>React</span>
+                                <span class="percent">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Node.js</span>
+                                <span class="percent">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Responsive Design</span>
+                                <span class="percent">95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Graphic Design</h3>
+                    <div class="skills-progress-list">
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Adobe Photoshop</span>
+                                <span class="percent">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Adobe Illustrator</span>
+                                <span class="percent">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>UI/UX Design</span>
+                                <span class="percent">92%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Logo Design</span>
+                                <span class="percent">88%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Brand Identity</span>
+                                <span class="percent">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>App Development</h3>
+                    <div class="skills-progress-list">
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>React Native</span>
+                                <span class="percent">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Flutter</span>
+                                <span class="percent">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>iOS Development</span>
+                                <span class="percent">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Android Development</span>
+                                <span class="percent">78%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-header">
+                                <span>Mobile UI Design</span>
+                                <span class="percent">88%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-percent="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="quote" class="quote-section">
+        <div class="container">
+            <h2 class="section-title">Daily Inspiration</h2>
+            <div class="quote-container">
+                <div id="quote-display">
+                    <p class="quote-text">Click the button below to get an inspirational quote.</p>
+                    <p class="quote-author"></p>
+                </div>
+                <div class="quote-actions">
+                    <button id="get-quote-btn" class="btn primary-btn">Get Quote</button>
+                    <button id="share-quote-btn" class="btn secondary-btn" disabled>
+                        <i class="fas fa-share-alt"></i> Share on WhatsApp
+                    </button>
+                </div>
+                <!-- Hidden canvas for generating quote image -->
+                <canvas id="quote-canvas" width="800" height="600" style="display: none;"></canvas>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+919060419628">+91 9060419628</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/919060419628" target="_blank">+91 9060419628</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:amsharjlk@gmail.com">amsharjlk@gmail.com</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <h3>Twitter</h3>
+                    <p><a href="https://twitter.com/md_amshar" target="_blank">@md_amshar</a></p>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <h3 class="map-heading">My Location</h3>
+                <p class="map-address">Jalkaura, Khagaria, Bihar, India</p>
+                <div class="google-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28734.77075599117!2d86.75660332899403!3d25.501144678511137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f035711889bc55%3A0xfc93e1c4531c7f66!2sKhagaria%2C%20Bihar!5e0!3m2!1sen!2sin!4v1682482307386!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <h3>Send Me a Message</h3>
+                <form class="contact-form" id="whatsapp-contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="contact-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contact-email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contact-subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contact-message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" id="whatsapp-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Md Amshar</h3>
+                    <p>Web Developer & Graphic Designer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/md_amshar" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Md Amshar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>
