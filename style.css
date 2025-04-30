@@ -2621,6 +2621,7 @@ nav ul li a:hover::after {
     visibility: hidden;
     transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
     overflow: hidden;
+    z-index: 1001;
 }
 
 .theme-dropdown.show {
