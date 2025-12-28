@@ -28,6 +28,7 @@ The project follows best practices in frontend development and focuses on reusab
 - **Tools:** VS Code
 
 ---
-
+thank you given this chance
 ## 📂 Project Structure
+
 
